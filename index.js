@@ -7,6 +7,7 @@ app.use(cors());
 const port = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
+  res.send("Server is running");
   res.download("./resume.pdf");
 });
 
