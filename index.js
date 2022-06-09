@@ -4,12 +4,11 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-
 const port = process.env.PORT || 5000;
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
   res.send("Server is running");
-  res.download("./merajResume.pdf");
+  await res.download("./merajResume.pdf");
 });
 
 app.listen(port, () => {
