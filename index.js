@@ -101,7 +101,7 @@ app.get("/projects", (req, res) => {
 });
 app.get("/project/:projectId", async (req, res) => {
   const id = req.params.projectId;
-  for (project of projects) {
+  for (const project of projects) {
     if (project._id === id) {
       res.send(project);
     }
