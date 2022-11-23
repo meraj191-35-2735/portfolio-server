@@ -10,6 +10,36 @@ const port = process.env.PORT || 5000;
 
 const projects = [
   {
+    _id: "BoiExchange1",
+    name: "Boi Exchange",
+    images: [
+      "https://i.ibb.co/L0LJ9B9/Boi-Exchange-1.png",
+      "https://i.ibb.co/Sxfz2Ys/Boi-Exchange-6.png",
+      "https://i.ibb.co/7YmVBCk/Boi-Exchange-10.png",
+      "https://i.ibb.co/s1ww7Zt/Boi-Exchange-14.png",
+      "https://i.ibb.co/mSzfxDG/Boi-Exchange-19.png",
+    ],
+    description:
+      "It is a book borrow, return & exchange system where users can also buy books and add or, remove books for exchange or, borrow easily.",
+    features: [
+      "The User, Admin & Librarian Dashboard is different.",
+      "Users can send requests to borrow & exchange books from other users.",
+      "Admin can manage librarians & users. Librarians can add & remove books.",
+    ],
+    liveSite: "https://boi-exchange-web.web.app/",
+    clientSite: "https://github.com/meraj191-35-2735/boi-exchange",
+    serverSite: "https://github.com/meraj191-35-2735/boi-exchange-server",
+    tech: [
+      "React.js",
+      "Firebase",
+      "Tailwind Css",
+      "DaisyUI",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
     _id: "ElectricManufacturer1",
     name: "Electric Manufacturer",
     images: [
